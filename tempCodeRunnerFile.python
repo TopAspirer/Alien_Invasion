@@ -1,0 +1,9 @@
+## test dir
+
+from ship import Ship
+
+things = dir(Ship)
+
+for thing in things:
+    #if 'speed' in thing
+    print(thing)
